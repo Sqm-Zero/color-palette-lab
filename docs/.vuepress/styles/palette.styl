@@ -1,0 +1,64 @@
+// 颜色变量
+$accentColor = #3eaf7c
+$textColor = #2c3e50
+$borderColor = #eaecef
+$codeBgColor = #282c34
+$arrowBgColor = #ccc
+
+// 布局样式
+.sidebar {
+  display: none !important;
+}
+
+.sidebar-group {
+  padding: 0.5rem 1rem;
+}
+
+.sidebar-link {
+  color: #2c3e50;
+  &.active {
+    color: $accentColor;
+    border-left-color: $accentColor;
+  }
+}
+
+// 内容区域
+.theme-container {
+  margin-left: 0 !important;
+  padding: 2rem;
+}
+
+// 响应式设计
+@media (max-width: 959px) {
+  .sidebar {
+    display: none !important;
+  }
+  .theme-container {
+    margin-left: 0 !important;
+  }
+}
+
+// 自定义组件样式
+.color-palette {
+  margin: 2rem 0;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.feature-card {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+}
+
+// 侧边栏样式增强（已禁用侧栏布局）
