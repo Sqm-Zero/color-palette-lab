@@ -27,6 +27,13 @@ npm run build
 
 ## 截图与示例
 - 渐变编辑器、智能推荐、对比度检测等功能可在对应页面直接体验
+![首页](./img/image.png "Home")
+
+![配色方案](./img/image01.png "Color Scheme")
+
+![渐变](./img/image02.png "Gradient")
+
+![工具](./img/image03.png "Tools")
 
 ## 作者
 - GitHub：[@Sqm-Zero](https://github.com/Sqm-Zero)
